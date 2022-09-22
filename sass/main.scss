@@ -4,8 +4,10 @@
 // main section
 @import "components/main.scss";
 
-// navigation
+// navigation & footer & newsletter
 @import "components/navigation.scss";
+@import "components/footer.scss";
+@import "components/newsletter.scss";
 
 // contact form
 @import "components/contact.scss";
@@ -22,6 +24,5 @@
 // clients section
 @import "components/clients.scss";
 
-// footer & newsletter
-@import "components/footer.scss";
-@import "components/newsletter.scss";
+// portfolio
+@import "components/portfolio.scss";
