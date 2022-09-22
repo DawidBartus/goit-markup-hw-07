@@ -540,7 +540,7 @@ footer .container {
   color: var(--grey-color);
   font-weight: 400;
 }
-.clients__section ul {
+.clients ul {
   display: flex;
   gap: 30px;
 }
@@ -652,7 +652,7 @@ footer .container {
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
-.client__svg {
+.clients__svg {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -662,12 +662,12 @@ footer .container {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__svg:hover,
-.client__svg:focus {
+.clients__svg:hover,
+.clients__svg:focus {
   fill: var(--company-color);
   border-color: var(--company-color);
 }
-.client__svg__size {
+.clients__svg__size {
   width: inherit;
   height: inherit;
 }

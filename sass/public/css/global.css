@@ -53,4 +53,16 @@ img {
 
 header {
   border-bottom: 1px solid #ececec;
+}
+
+.section__no_space {
+  padding-bottom: 0px;
+}
+
+.second__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=global.css.map */

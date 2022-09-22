@@ -1,8 +1,27 @@
 @import "utils/variables.scss";
 @import "components/global.scss";
 
+// main section
+@import "components/main.scss";
+
 // navigation
 @import "components/navigation.scss";
 
 // contact form
 @import "components/contact.scss";
+
+// lorem section
+@import "components/description.scss";
+
+// what we do
+@import "components/wedo.scss";
+
+// team section
+@import "components/team.scss";
+
+// clients section
+@import "components/clients.scss";
+
+// footer & newsletter
+@import "components/footer.scss";
+@import "components/newsletter.scss";

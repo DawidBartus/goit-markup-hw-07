@@ -15,7 +15,7 @@ input {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--dark-grey);
+  color: $company-dark-grey;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -41,4 +41,18 @@ img {
 }
 header {
   border-bottom: 1px solid #ececec;
+}
+.section__no_space {
+  padding-bottom: 0px;
+}
+.second__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.section {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
 }
