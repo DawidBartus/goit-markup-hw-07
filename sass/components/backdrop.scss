@@ -122,7 +122,7 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-    &-close {
+    &_close {
       position: absolute;
       top: 8px;
       right: 8px;
@@ -133,7 +133,7 @@
       height: 30px;
       cursor: pointer;
     }
-    &__svg {
+    &_svg {
       position: absolute;
       top: 5px;
       right: 5px;
@@ -170,12 +170,12 @@
     }
   }
 
-  &__checkbox--apperance {
+  &__checkbox-apperance {
     appearance: none;
     -webkit-appearance: none;
   }
 
-  &__checkbox--apperance:checked + &__terms::before {
+  &__checkbox-apperance:checked + &__terms::before {
     background-color: $company-blue;
     border: none;
   }

@@ -12,14 +12,14 @@
   &__text {
     color: $light-grey;
   }
-  &__svg__area {
+  &__svg {
     display: flex;
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
     margin-bottom: 30px;
-  }
-  &__svg {
-    margin: auto;
+    &_icon {
+      margin: auto;
+    }
   }
 }

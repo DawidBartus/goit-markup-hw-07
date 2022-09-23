@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="public/css/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <title>Studio</title>
   </head>
   <body>
@@ -28,7 +28,7 @@
             <li>
               <a
                 href="index.html"
-                class="navigation__link navigation__link--active"
+                class="navigation__link navigation__link-active"
                 >Agencja</a
               >
             </li>
@@ -50,7 +50,7 @@
           <li>
             <a
               href="tel:+48111111111"
-              class="connection__link connection__link--phone"
+              class="connection__link connection__link-phone"
               ><svg width="10" height="16" class="connection__svg">
                 <use href="images/icons.svg#icon-smartphone-1"></use>
               </svg>
@@ -73,8 +73,8 @@
       </section>
       <section class="backdrop is-hidden" data-modal>
         <div class="backdrop__table">
-          <button type="button" class="backdrop__button-close" data-modal-close>
-            <svg width="18" height="18" class="backdrop__button__svg">
+          <button type="button" class="backdrop__button_close" data-modal-close>
+            <svg width="18" height="18" class="backdrop__button_svg">
               <use href="images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
           </button>
@@ -133,7 +133,7 @@
               <div class="backdrop__checkbox">
                 <input
                   type="checkbox"
-                  class="backdrop__checkbox--apperance"
+                  class="backdrop__checkbox-apperance"
                   id="terms-check"
                 />
                 <label for="terms-check" class="backdrop__terms">
@@ -154,8 +154,8 @@
         <div class="container">
           <ul class="list description__list">
             <li>
-              <div class="description__svg__area">
-                <svg width="70" height="70" class="description__svg">
+              <div class="description__svg">
+                <svg width="70" height="70" class="description__svg_icon">
                   <use href="images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
@@ -166,8 +166,8 @@
               </p>
             </li>
             <li>
-              <div class="description__svg__area">
-                <svg width="70" height="70" class="description__svg">
+              <div class="description__svg">
+                <svg width="70" height="70" class="description__svg_icon">
                   <use href="images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
@@ -178,8 +178,8 @@
               </p>
             </li>
             <li>
-              <div class="description__svg__area">
-                <svg width="70" height="70" class="description__svg">
+              <div class="description__svg">
+                <svg width="70" height="70" class="description__svg_icon">
                   <use href="images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
@@ -190,8 +190,8 @@
               </p>
             </li>
             <li>
-              <div class="description__svg__area">
-                <svg width="70" height="70" class="description__svg">
+              <div class="description__svg">
+                <svg width="70" height="70" class="description__svg_icon">
                   <use href="images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
@@ -252,10 +252,14 @@
               <div class="team__description">
                 <p>John Doe</p>
                 <p class="team__position">Product Designer1</p>
-                <ul class="list team__social">
+                <ul class="list">
                   <li>
-                    <a href="" class="social__icon .social__svg-fillwhite">
-                      <svg width="20" height="20" class="social__svg">
+                    <a href="" class="social__icon">
+                      <svg
+                        width="20"
+                        height="20"
+                        class="social__svg social__svg-fill"
+                      >
                         <use href="images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
@@ -265,7 +269,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-twitter-1"></use>
                       </svg>
@@ -276,7 +280,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-facebook-1"></use>
                       </svg>
@@ -287,7 +291,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -312,7 +316,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-instagram-2"></use>
                       </svg>
@@ -323,7 +327,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-twitter-1"></use>
                       </svg>
@@ -334,7 +338,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-facebook-1"></use>
                       </svg>
@@ -345,7 +349,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -370,7 +374,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-instagram-2"></use>
                       </svg>
@@ -381,7 +385,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-twitter-1"></use>
                       </svg>
@@ -392,7 +396,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-facebook-1"></use>
                       </svg>
@@ -403,7 +407,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -428,7 +432,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-instagram-2"></use>
                       </svg>
@@ -439,7 +443,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-twitter-1"></use>
                       </svg>
@@ -450,7 +454,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-facebook-1"></use>
                       </svg>
@@ -461,7 +465,7 @@
                       <svg
                         width="20"
                         height="20"
-                        class="social__svg .social__svg-fill"
+                        class="social__svg social__svg-fill"
                       >
                         <use href="images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -559,7 +563,7 @@
         </ul>
       </div>
     </section>
-    <footer class="footer__section">
+    <footer class="footer">
       <div class="container">
         <div>
           <a href="" class="footer__logo"
@@ -581,7 +585,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer__media__section">
+        <div class="footer__media">
           <h3 class="footer__font">DOŁĄCZ DO NAS</h3>
           <ul class="list footer__media__list">
             <li class="">
@@ -632,7 +636,7 @@
         </div>
         <div class="newsletter">
           <p class="footer__font">ZAPISZ SIĘ DO NEWSLETTERA</p>
-          <div class="newsletter__mail__section">
+          <form action="#" class="newsletter__form">
             <label for="email-adress-2" class="newsletter__label">
               <input
                 type="email"
@@ -640,6 +644,7 @@
                 placeholder="E-mail"
                 id="email-adress-2"
                 class="newsletter__input"
+                required
               />
             </label>
             <button type="submit" class="newsletter__button">
@@ -648,7 +653,7 @@
                 <use href="images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
