@@ -6,11 +6,12 @@
 
 // navigation & footer & newsletter
 @import "components/navigation.scss";
+@import "components/connection.scss";
 @import "components/footer.scss";
 @import "components/newsletter.scss";
 
 // contact form
-@import "components/contact.scss";
+@import "components/backdrop.scss";
 
 // lorem section
 @import "components/description.scss";
@@ -26,3 +27,6 @@
 
 // portfolio
 @import "components/portfolio.scss";
+
+// socialmedia icon
+@import "components/socialmediaicon.scss";

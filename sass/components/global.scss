@@ -42,9 +42,6 @@ img {
 header {
   border-bottom: 1px solid #ececec;
 }
-.section__no_space {
-  padding-bottom: 0px;
-}
 .second__header {
   font-weight: 700;
   font-size: 36px;
@@ -55,4 +52,10 @@ header {
 .section {
   padding-top: $section-padding;
   padding-bottom: $section-padding;
+}
+.section-no_space {
+  padding-bottom: 0px;
+}
+.logo-company_color {
+  color: $company-blue;
 }

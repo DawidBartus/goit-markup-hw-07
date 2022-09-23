@@ -9,11 +9,8 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
   }
-  &__p {
+  &__text {
     color: $light-grey;
-  }
-  &__svg {
-    margin: auto;
   }
   &__svg__area {
     display: flex;
@@ -21,5 +18,8 @@
     height: 120px;
     background-color: #f5f4fa;
     margin-bottom: 30px;
+  }
+  &__svg {
+    margin: auto;
   }
 }

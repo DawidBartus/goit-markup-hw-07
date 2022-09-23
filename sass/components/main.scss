@@ -10,6 +10,11 @@
     max-width: 1600px;
     margin: 0 auto;
     box-shadow: 0px 4px 4px 0px #00000040;
+    & .container {
+      flex-direction: column;
+      margin-top: calc(200px - $section-padding);
+      margin-bottom: calc(200px - $section-padding);
+    }
   }
   &__header {
     font-weight: 900;
@@ -22,11 +27,6 @@
     margin-bottom: 30px;
     color: #ffffff;
     text-align: center;
-  }
-  &__section .container {
-    flex-direction: column;
-    margin-top: calc(200px - $section-padding);
-    margin-bottom: calc(200px - $section-padding);
   }
   &__button {
     background-color: $company-blue;

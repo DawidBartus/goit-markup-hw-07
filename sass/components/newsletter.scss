@@ -1,10 +1,9 @@
 .newsletter {
-  &__section {
-    display: flex;
-    flex-direction: column;
-    margin-left: 78px;
-    width: 570px;
-  }
+  display: flex;
+  flex-direction: column;
+  margin-left: 78px;
+  width: 570px;
+
   &__input {
     width: 358px;
     height: 50px;
@@ -30,9 +29,9 @@
     font-size: 16px;
     box-shadow: 0px 4px 4px 0px #00000026;
     cursor: pointer;
-  }
-  &__button span {
-    margin-right: 24px;
+    & span {
+      margin-right: 24px;
+    }
   }
   &__svg {
     width: 24px;
@@ -41,7 +40,7 @@
     fill: #ffffff;
     margin-top: 5px;
   }
-  &__mail__section {
+  &__mail_area {
     display: flex;
   }
 }
